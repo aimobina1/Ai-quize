@@ -13,7 +13,10 @@ form.addEventListener('submit' , e=>{
             score+=25;
         }
     });
+    //scroll top automatically
+     scrollTo(0,0)
     //show result
     result.querySelector('span').textContent=`${score}%`
     result.classList.remove('d-none')
+   
 })
